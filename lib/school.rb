@@ -14,7 +14,7 @@ class School # 'model' in the domain model
   end
   
   def grade(grade_number) 
-    @roster[grade_number]
+    @roster[grade_number] # takes a grade number + returns values
   end
   
   def sort 
